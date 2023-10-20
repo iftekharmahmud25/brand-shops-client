@@ -1,10 +1,8 @@
-// import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useLoaderData } from "react-router-dom";
-import NoProduct from "../../../components/noProduct/NoProduct";
-
+import NoProduct from "../../../components/noProduct/NoProduct"; 
 import SingleProduct from "../../../components/SingleProduct/SingleProduct";
 
 const BrandDetails = () => {
@@ -17,7 +15,7 @@ const BrandDetails = () => {
         speed: 2000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: true, 
         autoplaySpeed: 1000,
         adaptiveHeight: true,
     };

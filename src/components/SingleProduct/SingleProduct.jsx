@@ -1,8 +1,15 @@
 import { Link } from "react-router-dom";
+import { useData } from "../hook/DataContext";
 
 
 const SingleProduct = ({ singleProduct }) => {
     const { name, brand_name, type, price, rating, image, release_date, color_options, description } = singleProduct;
+    const { setSharedData } = useData();
+
+  const handleDetailsClick = () => {
+    // Set the shared data
+    setSharedData(singleProduct);
+  };
     
     return (
         <div>
@@ -19,9 +26,9 @@ const SingleProduct = ({ singleProduct }) => {
                 <div>
                     <div className="flex justify-end mt-4">
                         {/* update */}
-                   <Link to={`/update-product/${name}`}> <img className="bg-white rounded-3xl w-8 me-6 "  src="https://img.icons8.com/ios/50/000000/refresh--v1.png" alt="update button"/></Link>
+                   <Link > <img className="bg-white rounded-3xl w-8 me-6 "  src="https://img.icons8.com/ios/50/000000/refresh--v1.png" alt="update button"/></Link>
                     {/* details */}
-                    <img className="bg-white rounded-3xl me-6 w-8"  src="https://img.icons8.com/ios/50/000000/arrow--v1.png" alt="details button"/>
+                    <Link to={`details/${name}`} ><button onClick={handleDetailsClick}><img className="bg-white rounded-3xl me-6 w-8"  src="https://img.icons8.com/ios/50/000000/arrow--v1.png" alt="details button"/></button></Link>
                     </div>
                 </div>
             </div>

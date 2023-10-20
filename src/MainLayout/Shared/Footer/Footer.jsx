@@ -6,7 +6,7 @@ const Footer = () => {
             <div>
                 <div className='flex gap-2 items-center'>
                     <img className='w-20' src="https://img.icons8.com/matisse/100/ipad-mini.png" alt="ipad-mini" />
-                    <p className="text-white md:text-xl text-base font-bold">tech-O-world</p>
+                    <p className="text-white md:text-xl text-base font-bold">tech-Universe</p>
 
                 </div>
                 <p className="w-[50%]">Discover a World of Premium Brands and Their Exceptional Products </p>

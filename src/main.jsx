@@ -16,22 +16,24 @@ import PrivateRoute from './components/Provider/PrivateRoute';
 import Cart from './MainLayout/Pages/cart/Cart';
 import BrandDetails from './MainLayout/Pages/BrandDetails/BrandDetails';
 import UpdateProduct from './MainLayout/Pages/updateProduct/UpdateProduct';
+import ProductDetails from './MainLayout/Pages/ProductDetails/ProductDetails';
+import { DataProvider } from './components/hook/DataContext';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayOut></MainLayOut>,
-    errorElement:<ErrorPage></ErrorPage> ,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
-        element:<Home></Home>,
-        loader: ()=> fetch('/services.json')
+        element: <Home></Home>,
+        loader: () => fetch('/services.json')
       },
       {
-         path:"/login",
-         element:<Login></Login>
+        path: "/login",
+        element: <Login></Login>
       },
       {
         path: "/signup",
@@ -48,13 +50,18 @@ const router = createBrowserRouter([
       {
         path: '/brand/:id',
         element: <BrandDetails></BrandDetails>,
-        loader: ({params})=> fetch(`http://localhost:5000/services/${params.id}`)
+        loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
         //loader: ({params})=> fetch(`https://apple-server-80zq1e59s-iftekahr-mahmuds-projects.vercel.app/services/${params.id}`)
       },
       {
-        path :"/update-product/:productName",
+        path: "/update-product/:productName",
         element: <UpdateProduct></UpdateProduct>
+      },
+      {
+        path: "/brand/:id/details/:name",
+        element: <ProductDetails></ProductDetails>
       }
+
 
     ],
   },
@@ -68,7 +75,9 @@ const router = createBrowserRouter([
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-   <AuthProvider> <RouterProvider router={router} /></AuthProvider>
-  </React.StrictMode>,
+  <DataProvider>
+    <React.StrictMode>
+      <AuthProvider> <RouterProvider router={router} /></AuthProvider>
+    </React.StrictMode>
+  </DataProvider>,
 )

@@ -38,7 +38,7 @@ const Navbar = () => {
                 </div>
                 <Link to='/'><div className='flex gap-2 items-center'>
                     <img width="70" height="70" className='hidden md:block animate-pulse' src="https://img.icons8.com/matisse/100/ipad-mini.png" alt="ipad-mini" />
-                    <p className="text-red-700 md:text-xl  text-base font-bold">tech-O-world</p>
+                    <p className="text-red-700 md:text-xl  text-base font-bold">tech-Universe</p>
                 </div></Link>
             </div>
             <div className="navbar-center hidden lg:flex">

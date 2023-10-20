@@ -33,7 +33,7 @@ const Banner = () => {
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">
-      <h1 className="mb-5 md:text-4xl text-3xl lg:text-5xl font-bold text-white">Welcome to <br /> <span className="bg-gradient-to-r from-red-600 via-red-900 to-red-600 text-transparent bg-clip-text">tech-O-world!!!</span></h1>
+      <h1 className="mb-5 md:text-4xl text-3xl lg:text-5xl font-bold text-white">Welcome to <br /> <span className="bg-gradient-to-r from-red-600 via-red-900 to-red-600 text-transparent bg-clip-text">tech-Universe!!!</span></h1>
       <p className="mb-3 md:text-lg text-sm text-gray-300">Discover a World of Premium Brands and Their Exceptional Products <span className="bg-gradient-to-r from-red-600  to-red-900 text-transparent hover:bg-gradient-to-r hover:from-red-900 hover:to-red-600 bg-clip-text text-xl ">&#9829;</span></p>
     </div>
   </div>
