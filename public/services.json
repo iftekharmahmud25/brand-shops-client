@@ -1,0 +1,344 @@
+[
+  {
+    "name": "Apple",
+    "image": "https://i.ibb.co/dkhc5wB/l-intro-1650830667.jpg",
+    "advertisement_images": [
+      "https://i.ibb.co/wckfmpv/702639-413b9fb091ec45c7bb5da43bbaaa666e.jpg",
+      "https://i.ibb.co/JFrBt6F/15788b8db54c133186d742fb110bd364.jpg",
+      "https://i.ibb.co/G5H1rR4/50dbf8e902e1d81c01a1ff860b0e3d86.jpg",
+      "https://i.ibb.co/ynjpjRx/apple-watch-series-6-01.jpg"
+    ],
+    "products": [
+      {
+        "name": "iPhone 13 Pro",
+        "brand_name": "Apple",
+        "type": "Phone",
+        "price": 999.99,
+        "rating": 4.8,
+        "image": "https://i.ibb.co/vqW7RbK/iphone-13-pro-review-dan-baker-35.jpg",
+        "release_date": "2023-03-01",
+        "color_options": [
+          "Graphite",
+          "Silver",
+          "Gold",
+          "Sierra Blue"
+        ],
+        "description": "The iPhone 13 Pro is Apple's flagship phone, featuring a stunning Super Retina XDR display, a powerful A15 Bionic chip, and advanced camera capabilities. Whether you're capturing memories, streaming content, or staying connected, the iPhone 13 Pro is designed to deliver an exceptional experience."
+      },
+      {
+        "name": "MacBook Air",
+        "brand_name": "Apple",
+        "type": "Computer",
+        "price": 1299.99,
+        "rating": 4.7,
+        "image": "https://i.ibb.co/CB14ktL/Mac-Book-Air-Keyboard-and-Ports-10302018.jpg",
+        "release_date": "2023-02-15",
+        "color_options": [
+          "Space Gray",
+          "Silver",
+          "Gold"
+        ],
+        "description": "The MacBook Air is a sleek and powerful laptop that redefines portability and performance. With its Retina display and M1 chip, it's perfect for work and play. The MacBook Air offers a seamless user experience and remarkable efficiency, making it an ideal choice for those on the go."
+      },
+      {
+        "name": "AirPods Pro",
+        "brand_name": "Apple",
+        "type": "Headphones",
+        "price": 199.99,
+        "rating": 4.6,
+        "image": "https://i.ibb.co/y6tctZ8/71zny7-BTRl-L-AC-UL210-SR210-210.jpg",
+        "release_date": "2022-07-10",
+        "color_options": [
+          "White"
+        ],
+        "description": "AirPods Pro provides an immersive audio experience with active noise cancellation and spatial audio. These premium wireless earbuds are perfect for music lovers and on-the-go professionals, offering a clear and detailed soundstage for your favorite content."
+      },
+      {
+        "name": "Apple Watch Series 7",
+        "brand_name": "Apple",
+        "type": "Wearable",
+        "price": 349.99,
+        "rating": 4.9,
+        "image": "https://i.ibb.co/th1YvFM/Watch-S7-Nike-White-800x800.png",
+        "release_date": "2022-09-20",
+        "color_options": [
+          "Silver",
+          "Midnight",
+          "Starlight",
+          "Green"
+        ],
+        "description": "The Apple Watch Series 7 is not just a smartwatch; it's a comprehensive health and fitness companion. With its larger display and advanced health tracking features, it helps you stay on top of your well-being while keeping you connected with your digital life."
+      }
+    ]
+  },
+  {
+    "name": "Samsung",
+    "image": "https://i.ibb.co/qyFDGH1/360-F-521778573-b0-R1-SAHGq7-KLN0o-GWOm-Iu-Gh-ZVqtr-JOc5.jpg",
+    "advertisement_images": [
+      "https://i2-prod.birminghammail.co.uk/article17720727.ece/ALTERNATES/s615/0_Samsung-Galaxy-Z-Flip-foldable-phone-696x364.jpg",
+      "https://i.ibb.co/sV6FW6V/images-q-tbn-ANd9-Gc-Qv-i-ERw-Y-f-Fr-Y-obz0e-BW1-SBm6kq1-Irgn-Rkw-usqp-CAU.jpg",
+      "https://i.ibb.co/TMBKHTy/images-q-tbn-ANd9-Gc-TAc-Gprep-HGpcel-Scho-LRy-INg-MIkw-nnodl-QA-usqp-CAU.jpg"
+    ],
+    "products": [
+      {
+        "name": "Galaxy S21",
+        "brand_name": "Samsung",
+        "type": "Phone",
+        "price": 799.99,
+        "rating": 4.7,
+        "image": "https://i.ibb.co/mbZhs3w/gsmarena-034.jpg",
+        "release_date": "2022-01-15",
+        "color_options": [
+          "Phantom Gray",
+          "Phantom White",
+          "Phantom Violet"
+        ],
+        "description": "The Galaxy S21 is more than just a smartphone; it's a portal to innovation. With a stunning display and a powerful camera system, it redefines the way you capture and share your world. This flagship phone is designed for those who demand the best in mobile technology."
+      },
+      {
+        "name": "Galaxy Book Pro",
+        "brand_name": "Samsung",
+        "type": "Computer",
+        "price": 1299.99,
+        "rating": 4.6,
+        "image": "https://i.ibb.co/fFNDfS3/images-q-tbn-ANd9-Gc-Rre8-Jy-E-7dc-Ou-OHH38-An-DG2pecw-QRGQrb-EDItq4-ZAId-VBb-UKi7q-SPig4-Nsgh1-XP5x.jpg",
+        "release_date": "2023-04-05",
+        "color_options": [
+          "Mystic Silver",
+          "Mystic Blue"
+        ],
+        "description": "The Galaxy Book Pro is a testament to style and performance. This sleek laptop with an AMOLED display is your gateway to productivity and entertainment. Whether you're working on creative projects or enjoying multimedia, it offers a seamless experience."
+      },
+      {
+        "name": "Galaxy Buds Pro",
+        "brand_name": "Samsung",
+        "type": "Headphones",
+        "price": 149.99,
+        "rating": 4.5,
+        "image": "https://i.ibb.co/DRtM9Mb/42408343-IMG-6597-0154b023-f88a-4fb3-ac4f-d496aee54a4c.jpg",
+        "release_date": "2022-03-15",
+        "color_options": [
+          "Phantom Black",
+          "Phantom Silver",
+          "Phantom Violet"
+        ],
+        "description": "The Galaxy Buds Pro elevate your audio experience with premium sound quality and active noise cancellation. These wireless earbuds are designed for those who demand excellence in their music and audio calls."
+      },
+      {
+        "name": "Samsung Galaxy Watch 4",
+        "brand_name": "Samsung",
+        "type": "Wearable",
+        "price": 249.99,
+        "rating": 4.8,
+        "image": "https://www.shopz.com.bd/wp-content/uploads/2022/02/Samsung-Galaxy-Watch-4-40mm-R860-3.jpg",
+        "release_date": "2022-08-30",
+        "color_options": [
+          "Black",
+          "Green",
+          "Silver",
+          "Pink Gold"
+        ],
+        "description": "The Samsung Galaxy Watch 4 is your fitness and wellness partner. Its precision tracking and variety of health features help you stay active and informed. This stylish smartwatch seamlessly integrates into your daily routine."
+      }
+    ]
+  },
+  {
+    "name": "Sony",
+    "image": "https://i.ibb.co/7jD8czm/AFP-9247-EU-1614844208431-1614844229896-1661790972735-1661790972735.jpg",
+    "advertisement_images": [
+      "https://i.ibb.co/9hFPsPm/tc4jf3uvip8csjfnmgxht84vw8f7.jpg",
+      "https://i.ibb.co/bQZN2Ff/images-q-tbn-ANd9-Gc-Qbn-GNi-W51yv-Yq-Zgs-NX1-OTs-QCqwu3ukuz-Tr-A-usqp-CAU.jpg",
+      "https://i.ibb.co/zN0N4Ny/images-q-tbn-ANd9-Gc-Q2m-Vmuz1qr9dd-JHmb8-IOi-SXCXGNSEp-ZW8f-A-usqp-CAU.jpg"
+    ],
+    "products": [
+      {
+        "name": "Sony Xperia 1 III",
+        "brand_name": "Sony",
+        "type": "Phone",
+        "price": 999.99,
+        "rating": 4.6,
+        "image": "https://i.ibb.co/17tR6Bv/sony-unveils-xperia-1-ii-with-triple-cameras-and-focus-on-professional-photo-features.jpg",
+        "release_date": "2022-05-01",
+        "color_options": [
+          "Black",
+          "Purple",
+          "Gray",
+          "Pink"
+        ],
+        "description": "The Sony Xperia 1 III is designed for photography enthusiasts. It features a 4K OLED display and a versatile camera system that delivers stunning results. This phone is the ultimate tool for capturing your creativity and sharing it with the world."
+      },
+      {
+        "name": "Sony VAIO Z",
+        "brand_name": "Sony",
+        "type": "Computer",
+        "price": 1599.99,
+        "rating": 4.7,
+        "image": "https://i.ibb.co/hftsWQj/t7w-S28o-Vja-YB7-NRCqpyah7.jpg",
+        "release_date": "2023-02-20",
+        "color_options": [
+          "Carbon Black",
+          "Carbon Silver"
+        ],
+        "description": "The Sony VAIO Z is a premium ultraportable laptop that doesn't compromise on power or style. With a stunning 4K display, it's the go-to choice for professionals and content creators who demand excellence in their work."
+      },
+      {
+        "name": "Sony WH-1000XM4",
+        "brand_name": "Sony",
+        "type": "Headphones",
+        "price": 349.99,
+        "rating": 4.8,
+        "image": "https://i.ibb.co/BKL8fCN/345cc879c1fb3b1603ee02f0e1cfced2-fmt-png-alpha-wid-800.jpg",
+        "release_date": "2022-04-15",
+        "color_options": [
+          "Black",
+          "Silver"
+        ],
+        "description": "The Sony WH-1000XM4 headphones offer an unparalleled audio experience with industry-leading noise cancellation. Whether you're enjoying music or staying focused, these headphones deliver exceptional quality."
+      },
+      {
+        "name": "Sony SmartWatch 4",
+        "brand_name": "Sony",
+        "type": "Wearable",
+        "price": 199.99,
+        "rating": 4.5,
+        "image": "https://i.ibb.co/dtdd4hr/gsmarena-006.jpg",
+        "release_date": "2022-09-10",
+        "color_options": [
+          "Black",
+          "White",
+          "Blue",
+          "Red"
+        ],
+        "description": "The Sony SmartWatch 4 is a feature-packed wearable designed to keep you connected and motivated. With built-in GPS and heart rate monitoring, it's your ideal companion for an active lifestyle."
+      }
+    ]
+  },
+  {
+    "name": "Google",
+    "image": "https://i.ibb.co/vLwV1C9/images-q-tbn-ANd9-Gc-Ryo-Ywm-FIfe-BYZ6ee-W0u-YALJOuc-l-NHk-d-Wm-Isr8-YOXh-HADp-Zal-IGJLeps-LF33-Q0-P.jpg",
+    "advertisement_images": [
+      "https://i.ibb.co/K03GQV1/images-q-tbn-ANd9-Gc-Qs-Dzr-JRe-Qe4-LTi-BUEME6-Nj-G9o-M3-DY-c-N1-UQ9-Cx12v-ST1-IXm-DHDu-CGZcxs-WDr-J.jpg",
+      "https://static-prod.adweek.com/wp-content/uploads/2022/02/google-pixel-6-2022.jpg",
+      "https://www.gizchina.com/wp-content/uploads/images/2023/10/Pixel-8-ad1.webp"
+    ],
+    "products": [
+      {
+        "name": "Google Pixel 6",
+        "brand_name": "Google",
+        "type": "Phone",
+        "price": 799.99,
+        "rating": 4.5,
+        "image": "https://i.ibb.co/jkWsMnp/Pixel-6-Sorta-Seafoam-800x800.png",
+        "release_date": "2022-10-05",
+        "color_options": [
+          "Sorta Sunny",
+          "Stormy Black",
+          "Cloudy White"
+        ],
+        "description": "The Google Pixel 6 is a photography-focused phone that delivers exceptional camera capabilities and a pure Android experience. It's the go-to choice for photography enthusiasts and Android purists."
+      },
+      {
+        "name": "Pixelbook Pro",
+        "brand_name": "Google",
+        "type": "Computer",
+        "price": 1299.99,
+        "rating": 4.7,
+        "image": "https://www.yankodesign.com/images/design_news/2020/09/auto-draft/google_pixelbook_pro_2.jpg",
+        "release_date": "2023-03-10",
+        "color_options": [
+          "Not Pink",
+          "Just Black",
+          "Clearly White"
+        ],
+        "description": "The Pixelbook Pro is a premium Chromebook that offers a high-quality Chrome OS experience in a sleek and stylish design. It's your gateway to productivity and entertainment in a single device."
+      },
+      {
+        "name": "Google Pixel Buds",
+        "brand_name": "Google",
+        "type": "Headphones",
+        "price": 149.99,
+        "rating": 4.4,
+        "image": "https://www.custommacbd.com/cdn/shop/products/Google-Pixel-Buds-2-True-Wireless-custom-mac-bd.jpg?v=1658406119",
+        "release_date": "2022-06-20",
+        "color_options": [
+          "Clearly White",
+          "Oh So Orange",
+          "Quite Mint"
+        ],
+        "description": "The Google Pixel Buds offer a hands-free experience with seamless integration of Google Assistant and rich audio quality. These wireless earbuds are perfect for staying connected and enjoying your favorite music."
+      },
+      {
+        "name": "Google Fitbit Sense",
+        "brand_name": "Google",
+        "type": "Wearable",
+        "price": 299.99,
+        "rating": 4.6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGXDQPMC9oLkyKQrGv0rO6hrLhp9hPtV_RVg&usqp=CAU",
+        "release_date": "2022-08-15",
+        "description": "The Google Fitbit Sense is a comprehensive health and fitness tracker. With EDA and ECG sensors, it monitors your well-being and helps you manage stress. It's the ideal companion for a healthier lifestyle."
+      }
+    ]
+  },
+  {
+    "name": "Intel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9D-3m0uLhkrQfBNPgmQs9aYuwORx4iwZx-eNjaZeCAKWyio8qrhmSlO7fSIGuU9A4J6k&usqp=CAU",
+    "advertisement_images": [
+      "https://i.ibb.co/QHJQhm2/images-q-tbn-ANd9-Gc-TUy-PRs-Ggk1h7-Dl-QRcx-Xw-Kg-It-Fao-Bv-M-T-8-Jr-Paivb0-ADg-Ue-JWibmym2d3-XKh-M3.jpg",
+      "https://i.ibb.co/TwLDjJy/images-q-tbn-ANd9-Gc-Rr-C2-Wxy78-WKycy-Qg-4yz5a-Ng-Ms-Mv-Iz-O5-Bg-usqp-CAU.jpg",
+      "https://i.ibb.co/gmtNhnd/images-q-tbn-ANd9-Gc-TEfq-AGUATML73i8-JD8-Fawli-Esn-DTLDN0xcfg-usqp-CAU.jpg"
+    ],
+    "products": [
+      {
+        "name": "Intel Core i9-12900K",
+        "brand_name": "Intel",
+        "type": "Processor",
+        "price": 499.99,
+        "rating": 4.8,
+        "image": "https://i.ibb.co/HVGzXgD/intel-12900k-review-2.jpg",
+        "release_date": "2022-11-01",
+        "description": "The Intel Core i9-12900K is a high-performance desktop processor with Alder Lake architecture. Whether you're a gamer or a content creator, this processor delivers exceptional computing power."
+      },
+      {
+        "name": "Intel NUC 11",
+        "brand_name": "Intel",
+        "type": "Mini PC",
+        "price": 599.99,
+        "rating": 4.7,
+        "image": "https://i.ibb.co/Bn4kzBn/images-q-tbn-ANd9-Gc-Tw-NMKLz-EYTol-Dkb5-X2-Xg-EZb-H8z-Y6-D2j-Knd-Xoq-Kxpl-Ni1z-NCgs-Kx3d-MSr-WNPEKr.jpg",
+        "release_date": "2023-01-20",
+        "description": "The Intel NUC 11 is a compact and powerful mini PC suitable for a wide range of applications. Its small form factor and versatility make it an excellent choice for various computing needs."
+      },
+      {
+        "name": "Intel SSD 670p",
+        "brand_name": "Intel",
+        "type": "Storage",
+        "price": 129.99,
+        "rating": 4.6,
+        "image": "https://i.ibb.co/y8dkKbJ/images-q-tbn-ANd9-Gc-SJh5u-EKIAz-Pf-PQVns-Vtx-TMx6-C-A6-SSg-PNT0nwl-IQDYv9vx-RN53agi5-L-e-MEWLxo-Ng0.jpg",
+        "release_date": "2022-04-10",
+        "description": "The Intel SSD 670p offers speedy and reliable storage with QLC NAND technology. Whether you're storing important data or playing games, this SSD ensures efficient data access."
+      },
+      {
+        "name": "Intel RealSense D455",
+        "brand_name": "Intel",
+        "type": "Camera",
+        "price": 199.99,
+        "rating": 4.5,
+        "image": "https://i.ibb.co/R2x6zP3/images-q-tbn-ANd9-Gc-Q63-EX7r57-CFWZhc-Sd-Q-8y-DDGBFqths-XMg-Of-A-usqp-CAU.jpg",
+        "release_date": "2022-07-25",
+        "description": "The Intel RealSense D455 is a depth-sensing camera designed for computer vision applications. It enables advanced depth sensing, making it a valuable tool for robotics and computer vision projects."
+      }
+    ]
+  },
+  {
+    "name": "Microsoft",
+    "image": "https://i.ibb.co/HXQKmfL/images-q-tbn-ANd9-Gc-TJAfpp-L-Rn49-Yu-Vy62-Q8yd-QMMx-Mbcma2-Ve3b-Oeh-EDJdj-WZ1uz-BUm-Kmyh-PR02p-4-Mw.jpg",
+    "advertisement_images": [
+      
+      "",
+      "https://i.ibb.co/m9kr2Bm/canva-blue-modern-laptop-sale-instagram-post-CHy-YXMf53-NM.jpg",
+      "https://i.ibb.co/gMhXZnY/black-friday-sale-laptops-with-dark-background-3d-render-444361-42.jpg"
+    ],
+    "products": []
+  }
+]
