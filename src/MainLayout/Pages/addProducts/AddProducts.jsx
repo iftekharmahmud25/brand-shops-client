@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import addProductlottie from '../../../../public/lottie/Animation - 1697789869744.json'
+import addProductlottie from '../../../../public/lottie/Animation - 1697789429973.json'
 import Lottie from 'lottie-react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -67,9 +67,9 @@ const AddProducts = () => {
 
 
     return (
-        <div className='md:flex'>
+        <div className='md:flex items-start'>
         
-            <div className='md:w-[50%] w-[80%] mx-auto'>
+            <div className='md:w-[50%] w-[80%] mx-auto md:mt-20'>
                 <Lottie className='w-[100%] h-[100%] md:w-72 mx-auto ' animationData={addProductlottie} loop={true}></Lottie>
             </div>
             <div className='md:w-[50%]  w-[80%] md:text-justify mx-auto'>
