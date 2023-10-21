@@ -3,9 +3,10 @@ import addProductlottie from '../../../../public/lottie/Animation - 169778986974
 import Lottie from 'lottie-react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import useTitle from '../../../components/hook/useTitle';
 
 const AddProducts = () => {
-   
+   useTitle("Add Product")
 
     const [productData, setProductData] = useState({
         image: '',
@@ -61,39 +62,6 @@ const AddProducts = () => {
     };
    
 
-   
-    //     e.preventDefault();
-
-    //     try {
-    //       const response = await fetch('http://localhost:5000/addProduct', {
-    //         method: 'POST',
-    //         headers: {
-    //           'Content-Type': 'application/json',
-    //         },
-    //         body: JSON.stringify(productData),
-    //       });
-
-    //       if (response.status === 200) {
-    //         // Product was added successfully
-    //         setProductData({
-    //           image: '',
-    //           name: '',
-    //           brand_name: '',
-    //           type: '',
-    //           price: 0,
-    //           description: '',
-    //           rating: 0,
-    //         });
-    //         setErrorMessage('');
-    //       } else {
-    //         const data = await response.json();
-    //         setErrorMessage(data.message);
-    //       }
-    //     } catch (error) {
-    //       console.error('An error occurred while adding the product.', error);
-    //       setErrorMessage('An error occurred. Please try again.');
-    //     }
-    //   };
 
 
 
