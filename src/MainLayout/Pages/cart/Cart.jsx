@@ -1,4 +1,4 @@
-import  { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import useTitle from '../../../components/hook/useTitle';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -11,7 +11,6 @@ const Cart = () => {
   const { user } = useContext(AuthContext);
 
   useEffect(() => {
-    // Fetch the user's cart by including their email or unique identifier
     fetch(`http://localhost:5000/cart?user=${user.email}`)
       .then((response) => response.json())
       .then((data) => {
@@ -44,12 +43,12 @@ const Cart = () => {
               );
               toast("Product has been deleted successfully", { type: 'success' });
             } else {
-             
+
               toast.error("Failed to delete the product");
             }
           })
           .catch((error) => {
-            
+
             toast.error("Error deleting the product:", error);
           });
       }
@@ -58,46 +57,46 @@ const Cart = () => {
 
   return (
     <div>
-      
+
       {cartProducts.length > 0 ? (
         <div>
-            <h2 className='text-2xl text-center mt-6 mb-12 font-semibold'>Your Cart</h2>
-        <div className="overflow-x-auto bg-white">
-          <table className="table table-fixed w-full bg-white">
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Image</th>
-                <th>Product Name</th>
-                <th>Price</th>
-                <th>Delete</th>
-              </tr>
-            </thead>
-            <tbody>
-              {cartProducts.map((product, index) => (
-                <tr key={index}>
-                  <td>{index + 1}.</td>
-                  <td>
-                    <img className="w-16 h-14 rounded-sm" src={product.image} alt="" />
-                  </td>
-                  <td>{product.name}</td>
-                  <td>${product.price}</td>
-                  <td>
-                    <button onClick={() => handleDeleteProduct(product.name)}>
-                      <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/waste.png" alt="waste" />
-                    </button>
-                  </td>
+          <h2 className='text-2xl text-center mt-6 mb-12 font-semibold'>Your Cart</h2>
+          <div className="overflow-x-auto bg-white">
+            <table className="table table-fixed w-full bg-white">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Image</th>
+                  <th>Product Name</th>
+                  <th>Price</th>
+                  <th>Delete</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+              </thead>
+              <tbody>
+                {cartProducts.map((product, index) => (
+                  <tr key={index}>
+                    <td>{index + 1}.</td>
+                    <td>
+                      <img className="w-16 h-14 rounded-sm" src={product.image} alt="" />
+                    </td>
+                    <td>{product.name}</td>
+                    <td>${product.price}</td>
+                    <td>
+                      <button onClick={() => handleDeleteProduct(product.name)}>
+                        <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/waste.png" alt="waste" />
+                      </button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       ) : (
-       <div className='w-[80%] mx-auto'>
-         <p className='text-center text-xl my-6 font-semibold'>Your cart is empty.</p>
-        <img className='w-[30%] mx-auto' src="https://img.icons8.com/stickers/100/image-not-avialable.png" alt="image-not-avialable"/>
-       </div>
+        <div className='w-[80%] mx-auto'>
+          <p className='text-center text-xl my-6 font-semibold'>Your cart is empty.</p>
+          <img className='w-[30%] mx-auto' src="https://img.icons8.com/stickers/100/image-not-avialable.png" alt="image-not-avialable" />
+        </div>
       )}
       <ToastContainer></ToastContainer>
     </div>
