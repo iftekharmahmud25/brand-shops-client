@@ -11,7 +11,7 @@ const Cart = () => {
   const { user } = useContext(AuthContext);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/cart?user=${user.email}`)
+    fetch(`https://apple-server-drf5bpmol-iftekahr-mahmuds-projects.vercel.app/cart?user=${user.email}`)
       .then((response) => response.json())
       .then((data) => {
         setCartProducts(data);
@@ -32,7 +32,7 @@ const Cart = () => {
       confirmButtonText: 'Yes, delete it'
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:5000/cart/${productName}`, {
+        fetch(`https://apple-server-drf5bpmol-iftekahr-mahmuds-projects.vercel.app/cart/${productName}`, {
           method: 'DELETE',
         })
           .then((response) => {

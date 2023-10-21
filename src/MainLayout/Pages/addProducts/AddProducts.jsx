@@ -28,7 +28,7 @@ const AddProducts = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch(`http://localhost:5000/brands/${productData.brand_name}/products`, {
+            const response = await fetch(`https://apple-server-drf5bpmol-iftekahr-mahmuds-projects.vercel.app/brands/${productData.brand_name}/products`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

@@ -32,7 +32,7 @@ const ProductDetails = () => {
 
       };
 
-      const response = await fetch('http://localhost:5000/cart/add', {
+      const response = await fetch('https://apple-server-drf5bpmol-iftekahr-mahmuds-projects.vercel.app/cart/add', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

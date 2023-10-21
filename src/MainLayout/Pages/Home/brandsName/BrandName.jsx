@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import SingleBrand from "./SingleBrand";
-import useTitle from "../../../../components/hook/useTitle";
+
 
 
 const BrandName = () => {
     
     const [brands, setBrands]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/services')
-        //fetch('https://apple-server-80zq1e59s-iftekahr-mahmuds-projects.vercel.app/services')
+      
+        fetch('https://apple-server-80zq1e59s-iftekahr-mahmuds-projects.vercel.app/services')
         .then((res)=>res.json())
         .then(data=>{
             setBrands(data)

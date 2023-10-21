@@ -5,7 +5,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
 const SocialButton = () => {
-    const { setLoading, signInWithGoogle, signInWithGithub,updateUserProfile } = useContext(AuthContext);
+    const { setLoading, signInWithGoogle, updateUserProfile } = useContext(AuthContext);
     const navigate = useNavigate();
     const location = useLocation();
     const from = location.state?.from?.pathname || "/";
@@ -18,8 +18,8 @@ const SocialButton = () => {
                 console.log(user);
                 updateUserProfile(user.name, user.photoURL)
                 
-                fetch('http://localhost:5000/users',{
-                // fetch('https://apple-server-80zq1e59s-iftekahr-mahmuds-projects.vercel.app/users',{
+                
+                 fetch('https://apple-server-80zq1e59s-iftekahr-mahmuds-projects.vercel.app/users',{
                   method : 'POST',
                   headers :{
                      'content-type' : 'application/json'
@@ -45,18 +45,18 @@ const SocialButton = () => {
                 
             });
     };
-    const handleGithubSignIn = () => {
-        signInWithGithub()
-            .then((result) => {
-                console.log(result.user);
-                navigate(from, { replace: true });
-            })
-            .catch((err) => {
-                setLoading(false);
-                console.log(err.message);
+    // const handleGithubSignIn = () => {
+    //     signInWithGithub()
+    //         .then((result) => {
+    //             console.log(result.user);
+    //             navigate(from, { replace: true });
+    //         })
+    //         .catch((err) => {
+    //             setLoading(false);
+    //             console.log(err.message);
                 
-            });
-    };
+    //         });
+    // };
 
     return (
         <div>
@@ -71,10 +71,10 @@ const SocialButton = () => {
                         OOGLE
                     </span>
                     <span className="mx-2 -mb-5"> </span>
-                    <button onClick={handleGithubSignIn} className="btn -mb-5 text-red-950 hover:bg-red-950 hover:text-white btn-sm btn-circle btn-outline"><FaGoogle></FaGoogle></button>
-                    <span className="mt-7 text-lg text-color-one font-semibold mb-2">
+                    {/* <button onClick={handleGithubSignIn} className="btn -mb-5 text-red-950 hover:bg-red-950 hover:text-white btn-sm btn-circle btn-outline"><FaGoogle></FaGoogle></button> */}
+                    {/* <span className="mt-7 text-lg text-color-one font-semibold mb-2">
                         ITHUB
-                    </span>
+                    </span> */}
                 </div>
             </div>
         </div>
