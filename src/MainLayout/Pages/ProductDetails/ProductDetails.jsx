@@ -1,7 +1,9 @@
+import { useContext } from 'react';
 import { useData } from '../../../components/hook/DataContext';
 import useTitle from '../../../components/hook/useTitle';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { AuthContext } from '../../../components/Provider/AuthProvider';
 
 const ProductDetails = () => {
     useTitle("Product details")
@@ -11,6 +13,8 @@ const ProductDetails = () => {
       const parsedData = JSON.parse(storedData);
       setSharedData(parsedData);
     }
+    const { user } = useContext(AuthContext)
+    console.log(user.email)
 
     const handleAddToCart = async () => {
         try {
@@ -24,6 +28,7 @@ const ProductDetails = () => {
             release_date : data.release_date,
             color_options :data.color_options,
             description : data.description,
+            user: user.email, 
             
           };
       

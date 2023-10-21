@@ -1,15 +1,18 @@
-import  { useEffect, useState } from 'react';
+import  { useContext, useEffect, useState } from 'react';
 import useTitle from '../../../components/hook/useTitle';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Swal from 'sweetalert2';
+import { AuthContext } from '../../../components/Provider/AuthProvider';
 
 const Cart = () => {
   const [cartProducts, setCartProducts] = useState([]);
   useTitle("Your cart");
+  const { user } = useContext(AuthContext);
 
   useEffect(() => {
-    fetch('http://localhost:5000/cart')
+    // Fetch the user's cart by including their email or unique identifier
+    fetch(`http://localhost:5000/cart?user=${user.email}`)
       .then((response) => response.json())
       .then((data) => {
         setCartProducts(data);
@@ -17,7 +20,7 @@ const Cart = () => {
       .catch((error) => {
         console.error("Error fetching products from the cart:", error);
       });
-  }, []);
+  }, [user.email]);
 
   const handleDeleteProduct = (productName) => {
     Swal.fire({
@@ -35,11 +38,11 @@ const Cart = () => {
         })
           .then((response) => {
             if (response.status === 200) {
-              toast("Product has been deleted successfully", { type: 'success' });
-              // Product was deleted successfully, update the local cart
+              window.location.reload();
               setCartProducts((prevProducts) =>
                 prevProducts.filter((product) => product.name !== productName)
               );
+              toast("Product has been deleted successfully", { type: 'success' });
             } else {
              
               toast.error("Failed to delete the product");
