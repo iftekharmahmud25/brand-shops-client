@@ -6,8 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import useTitle from '../../../components/hook/useTitle';
 
 const AddProducts = () => {
-   useTitle("Add Product")
-
+    useTitle("Add Product")
     const [productData, setProductData] = useState({
         image: '',
         name: '',
@@ -19,7 +18,6 @@ const AddProducts = () => {
     });
 
     const [errorMessage, setErrorMessage] = useState('');
-
     const handleInputChange = (e) => {
         const { name, value } = e.target;
         setProductData({ ...productData, [name]: value });
@@ -39,7 +37,6 @@ const AddProducts = () => {
             });
 
             if (response.status === 200) {
-                // Product was added successfully
                 setProductData({
                     image: '',
                     name: '',
@@ -60,12 +57,11 @@ const AddProducts = () => {
             setErrorMessage('An error occurred. Please try again.');
         }
     };
-   
+
 
 
     return (
         <div className='md:flex items-start'>
-        
             <div className='md:w-[50%] w-[80%] mx-auto md:mt-20'>
                 <Lottie className='w-[100%] h-[100%] md:w-72 mx-auto ' animationData={addProductlottie} loop={true}></Lottie>
             </div>
@@ -77,7 +73,6 @@ const AddProducts = () => {
                         <label className="label">
                             <span className="label-text font-semibold ms-[10%] md:ms-0">Product Image:</span>
                         </label>
-
                         <input
                             type="text"
                             name="image"

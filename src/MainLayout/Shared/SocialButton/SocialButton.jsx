@@ -42,7 +42,7 @@ const SocialButton = () => {
             .catch((err) => {
                 setLoading(false);
                 console.log(err.message);
-                // toast.error(err.message);
+                
             });
     };
     const handleGithubSignIn = () => {
@@ -54,7 +54,7 @@ const SocialButton = () => {
             .catch((err) => {
                 setLoading(false);
                 console.log(err.message);
-                // toast.error(err.message);
+                
             });
     };
 

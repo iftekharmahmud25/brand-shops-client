@@ -17,10 +17,10 @@ const Banner = () => {
     setCurrentIndex((currentIndex + 1) % backgroundImages.length);
   };
   useEffect(() => {
-    const timer = setInterval(nextImage, 2000); // Change image every 5 seconds (5000 milliseconds)
+    const timer = setInterval(nextImage, 2000);
 
     return () => {
-      clearInterval(timer); // Clear the timer when the component unmounts
+      clearInterval(timer); 
     };
   }, [currentIndex]);
 

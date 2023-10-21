@@ -6,9 +6,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Navbar = () => {
-
     const { user, logOut } = useContext(AuthContext)
-    console.log(user)
+
     const navigate = useNavigate();
     const handleSignOut = () => {
         logOut()
@@ -76,7 +75,6 @@ const Navbar = () => {
                         >
                             Login
                         </NavLink>
-
                 }
             </div>
             <ToastContainer />

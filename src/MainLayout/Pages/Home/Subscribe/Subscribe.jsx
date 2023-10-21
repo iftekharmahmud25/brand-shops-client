@@ -2,7 +2,7 @@ import subImage from '../../../../assets/low-poly-grid-haikei.svg'
 
 const Subscribe = () => {
     const backgroundStyle = {
-        backgroundImage: `url(${subImage})`, // Use subImage as the background image
+        backgroundImage: `url(${subImage})`, 
       };
 
     return (

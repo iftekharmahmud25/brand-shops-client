@@ -1,4 +1,3 @@
-
 import Banner from "../../Banner/Banner";
 import ReviewSection from "./ReviewSection/ReviewSection";
 import useTitle from "../../../components/hook/useTitle";
@@ -6,13 +5,11 @@ import BrandName from "./brandsName/BrandName";
 import Subscribe from "./Subscribe/Subscribe";
 
 
-const Home = () => {
-        
+const Home = () => {        
     useTitle("Home");
 
     return (
-        <div>
-          
+        <div>         
             <Banner></Banner>
             <div>
                 <h1 className="text-center mt-10 mb-6 text-2xl font-semibold">--- Tech-Universe : Your Gateway to the World of Technology ---</h1>

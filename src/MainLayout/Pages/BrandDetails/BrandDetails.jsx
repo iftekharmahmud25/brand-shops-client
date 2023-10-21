@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useLoaderData } from "react-router-dom";
-import NoProduct from "../../../components/noProduct/NoProduct"; 
+import NoProduct from "../../../components/noProduct/NoProduct";
 import SingleProduct from "../../../components/SingleProduct/SingleProduct";
 import useTitle from "../../../components/hook/useTitle";
 
@@ -16,7 +16,7 @@ const BrandDetails = () => {
         speed: 2000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true, 
+        autoplay: true,
         autoplaySpeed: 1000,
         adaptiveHeight: true,
     };
@@ -37,12 +37,12 @@ const BrandDetails = () => {
                 ) : (
                     <><div className="my-20 w-full ">
                         {
-                            products?.map((singleProduct)=><SingleProduct key={singleProduct.name} singleProduct={singleProduct}></SingleProduct>)
+                            products?.map((singleProduct) => <SingleProduct key={singleProduct.name} singleProduct={singleProduct}></SingleProduct>)
                         }
-                        
-                        </div>
-                        
-                        </>
+
+                    </div>
+
+                    </>
                 )}
             </div>
 
