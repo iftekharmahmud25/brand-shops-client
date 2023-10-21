@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import useTitle from '../../../components/hook/useTitle';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -96,6 +96,7 @@ const Cart = () => {
         <img className='w-[30%] mx-auto' src="https://img.icons8.com/stickers/100/image-not-avialable.png" alt="image-not-avialable"/>
        </div>
       )}
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
