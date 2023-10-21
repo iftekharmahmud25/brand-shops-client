@@ -4,11 +4,12 @@ import "slick-carousel/slick/slick-theme.css";
 import { useLoaderData } from "react-router-dom";
 import NoProduct from "../../../components/noProduct/NoProduct"; 
 import SingleProduct from "../../../components/SingleProduct/SingleProduct";
+import useTitle from "../../../components/hook/useTitle";
 
 const BrandDetails = () => {
     const brandDetailsInfo = useLoaderData();
     const { advertisement_images, products } = brandDetailsInfo;
-
+    useTitle("Brand")
     const sliderSettings = {
         dots: true,
         infinite: true,

@@ -48,7 +48,7 @@ const ProductDetails = () => {
 
 
   return (
-    <div>
+    <div className='mt-12'>
         <ToastContainer/>
       <div className='md:flex lg:gap-20 mb-5'>
         <div className='md:w-[50%]'>
@@ -72,7 +72,7 @@ const ProductDetails = () => {
         </div>
       </div>
 
-      {data?.description && <p className='md:text-xl md:ms-16 text-lg  w-[80%] mx-auto font-base text-gray-700'><span className='font-semibold'>Description :</span> {data.description}</p>}
+      {data?.description && <p className='md:text-lg md:ms-16 text-lg  w-[90%] mx-auto font-base text-gray-700'><span className='font-semibold'>Description :</span> {data.description}</p>}
     </div>
   );
 };

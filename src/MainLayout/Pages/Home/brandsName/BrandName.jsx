@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import SingleBrand from "./SingleBrand";
+import useTitle from "../../../../components/hook/useTitle";
 
 
 const BrandName = () => {
+    
     const [brands, setBrands]=useState([])
     useEffect(()=>{
         fetch('http://localhost:5000/services')

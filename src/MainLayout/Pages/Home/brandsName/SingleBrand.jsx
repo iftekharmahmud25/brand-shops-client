@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 
+
 const SingleBrand = ({ singleBrand }) => {
     const { _id,image, name } = singleBrand;
+    
 
     return (
         <>
