@@ -100,6 +100,7 @@ const AddProducts = () => {
 
     return (
         <div className='md:flex'>
+        
             <div className='md:w-[50%] w-[80%] mx-auto'>
                 <Lottie className='w-[100%] h-[100%] md:w-72 mx-auto ' animationData={addProductlottie} loop={true}></Lottie>
             </div>

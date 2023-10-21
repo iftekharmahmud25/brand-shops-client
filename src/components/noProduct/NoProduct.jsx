@@ -1,11 +1,11 @@
-import Lottie from 'lottie-react';
-import noProductlottie from '../../../public/lottie/Animation - 1697747968286.json'
+
 
 const NoProduct = () => {
     return (
         <div className='my-20'>
             <div>
-                <Lottie className='w-72 mx-auto h-56' animationData={noProductlottie} loop={true}></Lottie>
+            <p className='text-center text-xl my-6 font-semibold'>Unfortunately, there is no product yet!!!</p>
+            <img className='w-[10%] mx-auto'  src="https://img.icons8.com/external-filled-line-andi-nur-abdillah/64/external-Empty-empty-state-(filled-line)-filled-line-andi-nur-abdillah.png" alt="external-Empty-empty-state-(filled-line)-filled-line-andi-nur-abdillah"/>
             </div>
           
         </div>

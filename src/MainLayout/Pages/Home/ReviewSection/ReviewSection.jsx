@@ -46,7 +46,7 @@ const ReviewSection = () => {
         <p className='mb-3'>{reviews[activeTab].feedback}</p>
       </div>
       <div className='flex items-center'>
-      <input type="text" placeholder="Type here your review" className="input rounded-none w-full my-6" /><button className='bg-black rounded-none hover:bg-red-800 text-white btn'>submit</button>
+      <input type="text" placeholder="Type here your review" className="input rounded-none w-full my-6" /><button className='bg-gradient-to-r from-red-800  to-red-500 hover:bg-gradient-to-r hover:from-red-500 hover:to-red-800 text-xl text-white px-4 py-2 rounded-md'>submit</button>
       </div>
     </div>
   );

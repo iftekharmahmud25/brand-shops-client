@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="footer p-10 bg-black mt-20 text-white">
             <div>
                 <div className='flex gap-2 items-center'>
-                    <img className='w-20' src="https://img.icons8.com/matisse/100/ipad-mini.png" alt="ipad-mini" />
+                    <img className='w-20 bg-white rounded' src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/external-file-cloud-data-technology-and-network-technology-flatart-icons-outline-flatarticons.png" alt="external-file-cloud-data-technology-and-network-technology-flatart-icons-outline-flatarticons" />
                     <p className="text-white md:text-xl text-base font-bold">tech-Universe</p>
 
                 </div>
@@ -18,7 +18,7 @@ const Footer = () => {
                         type="email"
                         placeholder="Email"
                     />
-                    <button className="w-16 h-8 rounded-l-sm bg-red-700 text-white text-xs hover:bg-red-950 ">
+                    <button className="w-16 h-8 rounded-l-sm text-xs bg-gradient-to-r from-red-800  to-red-500 hover:bg-gradient-to-r hover:from-red-500 hover:to-red-800  px-1 py-2 rounded-md">
                         Subscribe
                     </button>
                 </div>

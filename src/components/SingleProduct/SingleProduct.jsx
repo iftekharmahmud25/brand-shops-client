@@ -9,6 +9,7 @@ const SingleProduct = ({ singleProduct }) => {
   const handleDetailsClick = () => {
     // Set the shared data
     setSharedData(singleProduct);
+    localStorage.setItem('sharedData', JSON.stringify(singleProduct));
   };
     
     return (

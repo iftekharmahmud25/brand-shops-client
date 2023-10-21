@@ -30,14 +30,14 @@ const Navbar = () => {
                     </label>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 gap-y-2">
                         <li className='bg-white'><Link className='' to='/'>Home</Link></li>
-                       {user && <> <li>
+                        {user && <> <li>
                             <Link className='' to='/addProducts'>Add Products</Link>
                         </li>
-                        <li> <Link className='' to='/cart'>My Cart</Link></li></>}
+                            <li> <Link className='' to='/cart'>My Cart</Link></li></>}
                     </ul>
                 </div>
                 <Link to='/'><div className='flex gap-2 items-center'>
-                    <img width="70" height="70" className='hidden md:block animate-pulse' src="https://img.icons8.com/matisse/100/ipad-mini.png" alt="ipad-mini" />
+                    <img width="60" height="60" className='hidden md:block animate-pulse' src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/external-file-cloud-data-technology-and-network-technology-flatart-icons-outline-flatarticons.png" alt="external-file-cloud-data-technology-and-network-technology-flatart-icons-outline-flatarticons" />
                     <p className="text-red-700 md:text-xl  text-base font-bold">tech-Universe</p>
                 </div></Link>
             </div>
