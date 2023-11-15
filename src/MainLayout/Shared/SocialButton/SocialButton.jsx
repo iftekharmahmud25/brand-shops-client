@@ -19,7 +19,7 @@ const SocialButton = () => {
                 updateUserProfile(user.name, user.photoURL)
                 
                 
-                 fetch('https://apple-server-80zq1e59s-iftekahr-mahmuds-projects.vercel.app/users',{
+                 fetch('https://apple-server-ruby.vercel.app/users',{
                   method : 'POST',
                   headers :{
                      'content-type' : 'application/json'

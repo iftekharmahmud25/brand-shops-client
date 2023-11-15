@@ -50,7 +50,7 @@ const router = createBrowserRouter([
       {
         path: '/brand/:id',
         element: <BrandDetails></BrandDetails>,
-        loader: ({params})=> fetch(`https://apple-server-80zq1e59s-iftekahr-mahmuds-projects.vercel.app/services/${params.id}`)
+        loader: ({params})=> fetch(`https://apple-server-ruby.vercel.app/services/${params.id}`)
       },
       {
         path: "/update-product/:productName",

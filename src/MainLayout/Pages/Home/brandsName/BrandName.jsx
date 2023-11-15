@@ -8,7 +8,7 @@ const BrandName = () => {
     const [brands, setBrands]=useState([])
     useEffect(()=>{
       
-        fetch('https://apple-server-80zq1e59s-iftekahr-mahmuds-projects.vercel.app/services')
+        fetch('https://apple-server-ruby.vercel.app/services')
         .then((res)=>res.json())
         .then(data=>{
             setBrands(data)
